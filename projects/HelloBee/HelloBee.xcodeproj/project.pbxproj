@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77C0B93F19D1925F00866222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B93E19D1925F00866222 /* UIKit.framework */; };
+		77C0B94119D1925F00866222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B94019D1925F00866222 /* Foundation.framework */; };
+		77C0B94319D1925F00866222 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B94219D1925F00866222 /* CoreGraphics.framework */; };
+		77C0B94519D1925F00866222 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B94419D1925F00866222 /* AVFoundation.framework */; };
+		77C0B94719D1925F00866222 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B94619D1925F00866222 /* CFNetwork.framework */; };
+		77C0B94919D1925F00866222 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B94819D1925F00866222 /* CoreMedia.framework */; };
+		77C0B94B19D1925F00866222 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B94A19D1925F00866222 /* CoreText.framework */; };
+		77C0B94D19D1925F00866222 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B94C19D1925F00866222 /* CoreVideo.framework */; };
+		77C0B94F19D1925F00866222 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B94E19D1925F00866222 /* MobileCoreServices.framework */; };
+		77C0B95119D1925F00866222 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B95019D1925F00866222 /* QuartzCore.framework */; };
+		77C0B95319D1925F00866222 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B95219D1925F00866222 /* Security.framework */; };
+		77C0B95519D1925F00866222 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B95419D1925F00866222 /* SystemConfiguration.framework */; };
+		77C0B95B19D1925F00866222 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77C0B95919D1925F00866222 /* InfoPlist.strings */; };
+		77C0B95D19D1925F00866222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C0B95C19D1925F00866222 /* main.m */; };
+		77C0B96019D1925F00866222 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C0B95F19D1925F00866222 /* Default.png */; };
+		77C0B96219D1925F00866222 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C0B96119D1925F00866222 /* Default@2x.png */; };
+		77C0B96419D1925F00866222 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C0B96319D1925F00866222 /* Default-568h@2x.png */; };
+		77C0B96619D1925F00866222 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C0B96519D1925F00866222 /* Icon.png */; };
+		77C0B96819D1925F00866222 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C0B96719D1925F00866222 /* Icon@2x.png */; };
+		77C0B96B19D1925F00866222 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C0B96A19D1925F00866222 /* AppDelegate.m */; };
+		77C0B97619D1925F00866222 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B97519D1925F00866222 /* libz.dylib */; };
+		77C0B97819D1925F00866222 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B97719D1925F00866222 /* libsqlite3.dylib */; };
+		77C0B97A19D1925F00866222 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B97919D1925F00866222 /* libxml2.dylib */; };
+		77C0B97D19D1925F00866222 /* AppBoard_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C0B97C19D1925F00866222 /* AppBoard_iPhone.m */; };
+		77C0B98019D1925F00866222 /* AppBoard_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C0B97F19D1925F00866222 /* AppBoard_iPad.m */; };
+		77C0B98719D1925F00866222 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B98619D1925F00866222 /* XCTest.framework */; };
+		77C0B98819D1925F00866222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B94019D1925F00866222 /* Foundation.framework */; };
+		77C0B98919D1925F00866222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C0B93E19D1925F00866222 /* UIKit.framework */; };
+		77C0B99119D1925F00866222 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77C0B98F19D1925F00866222 /* InfoPlist.strings */; };
+		77C0B99319D1926000866222 /* HelloBeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C0B99219D1926000866222 /* HelloBeeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77C0B98A19D1925F00866222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77C0B93319D1925F00866222 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77C0B93A19D1925F00866222;
+			remoteInfo = HelloBee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77C0B93B19D1925F00866222 /* HelloBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C0B93E19D1925F00866222 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77C0B94019D1925F00866222 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77C0B94219D1925F00866222 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77C0B94419D1925F00866222 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		77C0B94619D1925F00866222 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		77C0B94819D1925F00866222 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		77C0B94A19D1925F00866222 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		77C0B94C19D1925F00866222 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		77C0B94E19D1925F00866222 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		77C0B95019D1925F00866222 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		77C0B95219D1925F00866222 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		77C0B95419D1925F00866222 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		77C0B95819D1925F00866222 /* HelloBee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloBee-Info.plist"; sourceTree = "<group>"; };
+		77C0B95A19D1925F00866222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77C0B95C19D1925F00866222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77C0B95E19D1925F00866222 /* HelloBee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloBee-Prefix.pch"; sourceTree = "<group>"; };
+		77C0B95F19D1925F00866222 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		77C0B96119D1925F00866222 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		77C0B96319D1925F00866222 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		77C0B96519D1925F00866222 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		77C0B96719D1925F00866222 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		77C0B96919D1925F00866222 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77C0B96A19D1925F00866222 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77C0B97519D1925F00866222 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		77C0B97719D1925F00866222 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = /usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
+		77C0B97919D1925F00866222 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
+		77C0B97B19D1925F00866222 /* AppBoard_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppBoard_iPhone.h; path = view_iPhone/AppBoard_iPhone.h; sourceTree = "<group>"; };
+		77C0B97C19D1925F00866222 /* AppBoard_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppBoard_iPhone.m; path = view_iPhone/AppBoard_iPhone.m; sourceTree = "<group>"; };
+		77C0B97E19D1925F00866222 /* AppBoard_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppBoard_iPad.h; path = view_iPad/AppBoard_iPad.h; sourceTree = "<group>"; };
+		77C0B97F19D1925F00866222 /* AppBoard_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppBoard_iPad.m; path = view_iPad/AppBoard_iPad.m; sourceTree = "<group>"; };
+		77C0B98519D1925F00866222 /* HelloBeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloBeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C0B98619D1925F00866222 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		77C0B98E19D1925F00866222 /* HelloBeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloBeeTests-Info.plist"; sourceTree = "<group>"; };
+		77C0B99019D1925F00866222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77C0B99219D1926000866222 /* HelloBeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloBeeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77C0B93819D1925F00866222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C0B95119D1925F00866222 /* QuartzCore.framework in Frameworks */,
+				77C0B94919D1925F00866222 /* CoreMedia.framework in Frameworks */,
+				77C0B94519D1925F00866222 /* AVFoundation.framework in Frameworks */,
+				77C0B95319D1925F00866222 /* Security.framework in Frameworks */,
+				77C0B97819D1925F00866222 /* libsqlite3.dylib in Frameworks */,
+				77C0B97619D1925F00866222 /* libz.dylib in Frameworks */,
+				77C0B94319D1925F00866222 /* CoreGraphics.framework in Frameworks */,
+				77C0B93F19D1925F00866222 /* UIKit.framework in Frameworks */,
+				77C0B94B19D1925F00866222 /* CoreText.framework in Frameworks */,
+				77C0B94119D1925F00866222 /* Foundation.framework in Frameworks */,
+				77C0B94F19D1925F00866222 /* MobileCoreServices.framework in Frameworks */,
+				77C0B94719D1925F00866222 /* CFNetwork.framework in Frameworks */,
+				77C0B95519D1925F00866222 /* SystemConfiguration.framework in Frameworks */,
+				77C0B94D19D1925F00866222 /* CoreVideo.framework in Frameworks */,
+				77C0B97A19D1925F00866222 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C0B98219D1925F00866222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C0B98719D1925F00866222 /* XCTest.framework in Frameworks */,
+				77C0B98919D1925F00866222 /* UIKit.framework in Frameworks */,
+				77C0B98819D1925F00866222 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77C0B93219D1925F00866222 = {
+			isa = PBXGroup;
+			children = (
+				77C0B95619D1925F00866222 /* HelloBee */,
+				77C0B98C19D1925F00866222 /* HelloBeeTests */,
+				77C0B93D19D1925F00866222 /* Frameworks */,
+				77C0B93C19D1925F00866222 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77C0B93C19D1925F00866222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77C0B93B19D1925F00866222 /* HelloBee.app */,
+				77C0B98519D1925F00866222 /* HelloBeeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77C0B93D19D1925F00866222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C0B93E19D1925F00866222 /* UIKit.framework */,
+				77C0B94019D1925F00866222 /* Foundation.framework */,
+				77C0B94219D1925F00866222 /* CoreGraphics.framework */,
+				77C0B94419D1925F00866222 /* AVFoundation.framework */,
+				77C0B94619D1925F00866222 /* CFNetwork.framework */,
+				77C0B94819D1925F00866222 /* CoreMedia.framework */,
+				77C0B94A19D1925F00866222 /* CoreText.framework */,
+				77C0B94C19D1925F00866222 /* CoreVideo.framework */,
+				77C0B94E19D1925F00866222 /* MobileCoreServices.framework */,
+				77C0B95019D1925F00866222 /* QuartzCore.framework */,
+				77C0B95219D1925F00866222 /* Security.framework */,
+				77C0B95419D1925F00866222 /* SystemConfiguration.framework */,
+				77C0B98619D1925F00866222 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77C0B95619D1925F00866222 /* HelloBee */ = {
+			isa = PBXGroup;
+			children = (
+				77C0B96919D1925F00866222 /* AppDelegate.h */,
+				77C0B96A19D1925F00866222 /* AppDelegate.m */,
+				77C0B96D19D1925F00866222 /* controller */,
+				77C0B96C19D1925F00866222 /* model */,
+				77C0B96E19D1925F00866222 /* view_iPhone */,
+				77C0B97119D1925F00866222 /* view_iPad */,
+				77C0B97419D1925F00866222 /* library */,
+				77C0B95719D1925F00866222 /* Supporting Files */,
+			);
+			path = HelloBee;
+			sourceTree = "<group>";
+		};
+		77C0B95719D1925F00866222 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77C0B95819D1925F00866222 /* HelloBee-Info.plist */,
+				77C0B95919D1925F00866222 /* InfoPlist.strings */,
+				77C0B95C19D1925F00866222 /* main.m */,
+				77C0B95E19D1925F00866222 /* HelloBee-Prefix.pch */,
+				77C0B95F19D1925F00866222 /* Default.png */,
+				77C0B96119D1925F00866222 /* Default@2x.png */,
+				77C0B96319D1925F00866222 /* Default-568h@2x.png */,
+				77C0B96519D1925F00866222 /* Icon.png */,
+				77C0B96719D1925F00866222 /* Icon@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77C0B96C19D1925F00866222 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		77C0B96D19D1925F00866222 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		77C0B96E19D1925F00866222 /* view_iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				77C0B97B19D1925F00866222 /* AppBoard_iPhone.h */,
+				77C0B97C19D1925F00866222 /* AppBoard_iPhone.m */,
+				77C0B97019D1925F00866222 /* templates */,
+				77C0B96F19D1925F00866222 /* resource */,
+			);
+			name = view_iPhone;
+			sourceTree = "<group>";
+		};
+		77C0B96F19D1925F00866222 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = resource;
+			path = view_iPhone/resource;
+			sourceTree = "<group>";
+		};
+		77C0B97019D1925F00866222 /* templates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = templates;
+			path = view_iPhone/templates;
+			sourceTree = "<group>";
+		};
+		77C0B97119D1925F00866222 /* view_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				77C0B97E19D1925F00866222 /* AppBoard_iPad.h */,
+				77C0B97F19D1925F00866222 /* AppBoard_iPad.m */,
+				77C0B97319D1925F00866222 /* templates */,
+				77C0B97219D1925F00866222 /* resource */,
+			);
+			name = view_iPad;
+			sourceTree = "<group>";
+		};
+		77C0B97219D1925F00866222 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = resource;
+			path = view_iPad/resource;
+			sourceTree = "<group>";
+		};
+		77C0B97319D1925F00866222 /* templates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = templates;
+			path = view_iPad/templates;
+			sourceTree = "<group>";
+		};
+		77C0B97419D1925F00866222 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				77C0B97519D1925F00866222 /* libz.dylib */,
+				77C0B97719D1925F00866222 /* libsqlite3.dylib */,
+				77C0B97919D1925F00866222 /* libxml2.dylib */,
+			);
+			name = library;
+			sourceTree = "<group>";
+		};
+		77C0B98C19D1925F00866222 /* HelloBeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				77C0B99219D1926000866222 /* HelloBeeTests.m */,
+				77C0B98D19D1925F00866222 /* Supporting Files */,
+			);
+			path = HelloBeeTests;
+			sourceTree = "<group>";
+		};
+		77C0B98D19D1925F00866222 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77C0B98E19D1925F00866222 /* HelloBeeTests-Info.plist */,
+				77C0B98F19D1925F00866222 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77C0B93A19D1925F00866222 /* HelloBee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C0B99619D1926000866222 /* Build configuration list for PBXNativeTarget "HelloBee" */;
+			buildPhases = (
+				77C0B93719D1925F00866222 /* Sources */,
+				77C0B93819D1925F00866222 /* Frameworks */,
+				77C0B93919D1925F00866222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloBee;
+			productName = HelloBee;
+			productReference = 77C0B93B19D1925F00866222 /* HelloBee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77C0B98419D1925F00866222 /* HelloBeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C0B99919D1926000866222 /* Build configuration list for PBXNativeTarget "HelloBeeTests" */;
+			buildPhases = (
+				77C0B98119D1925F00866222 /* Sources */,
+				77C0B98219D1925F00866222 /* Frameworks */,
+				77C0B98319D1925F00866222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77C0B98B19D1925F00866222 /* PBXTargetDependency */,
+			);
+			name = HelloBeeTests;
+			productName = HelloBeeTests;
+			productReference = 77C0B98519D1925F00866222 /* HelloBeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77C0B93319D1925F00866222 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FMP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fuckmeagain.org;
+				TargetAttributes = {
+					77C0B98419D1925F00866222 = {
+						TestTargetID = 77C0B93A19D1925F00866222;
+					};
+				};
+			};
+			buildConfigurationList = 77C0B93619D1925F00866222 /* Build configuration list for PBXProject "HelloBee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77C0B93219D1925F00866222;
+			productRefGroup = 77C0B93C19D1925F00866222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77C0B93A19D1925F00866222 /* HelloBee */,
+				77C0B98419D1925F00866222 /* HelloBeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77C0B93919D1925F00866222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C0B96219D1925F00866222 /* Default@2x.png in Resources */,
+				77C0B96819D1925F00866222 /* Icon@2x.png in Resources */,
+				77C0B96419D1925F00866222 /* Default-568h@2x.png in Resources */,
+				77C0B96619D1925F00866222 /* Icon.png in Resources */,
+				77C0B95B19D1925F00866222 /* InfoPlist.strings in Resources */,
+				77C0B96019D1925F00866222 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C0B98319D1925F00866222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C0B99119D1925F00866222 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77C0B93719D1925F00866222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C0B98019D1925F00866222 /* AppBoard_iPad.m in Sources */,
+				77C0B96B19D1925F00866222 /* AppDelegate.m in Sources */,
+				77C0B95D19D1925F00866222 /* main.m in Sources */,
+				77C0B97D19D1925F00866222 /* AppBoard_iPhone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C0B98119D1925F00866222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C0B99319D1926000866222 /* HelloBeeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77C0B98B19D1925F00866222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77C0B93A19D1925F00866222 /* HelloBee */;
+			targetProxy = 77C0B98A19D1925F00866222 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77C0B95919D1925F00866222 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C0B95A19D1925F00866222 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77C0B98F19D1925F00866222 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C0B99019D1925F00866222 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77C0B99419D1926000866222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77C0B99519D1926000866222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77C0B99719D1926000866222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloBee/HelloBee-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "HelloBee/HelloBee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77C0B99819D1926000866222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloBee/HelloBee-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "HelloBee/HelloBee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		77C0B99A19D1926000866222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloBee.app/HelloBee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloBee/HelloBee-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloBeeTests/HelloBeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		77C0B99B19D1926000866222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloBee.app/HelloBee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloBee/HelloBee-Prefix.pch";
+				INFOPLIST_FILE = "HelloBeeTests/HelloBeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77C0B93619D1925F00866222 /* Build configuration list for PBXProject "HelloBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C0B99419D1926000866222 /* Debug */,
+				77C0B99519D1926000866222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C0B99619D1926000866222 /* Build configuration list for PBXNativeTarget "HelloBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C0B99719D1926000866222 /* Debug */,
+				77C0B99819D1926000866222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77C0B99919D1926000866222 /* Build configuration list for PBXNativeTarget "HelloBeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C0B99A19D1926000866222 /* Debug */,
+				77C0B99B19D1926000866222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77C0B93319D1925F00866222 /* Project object */;
+}
